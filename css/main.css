@@ -180,12 +180,15 @@ body.dark .toggle input[type="checkbox"]:checked+label:after {
         width: 100%;
         overflow: hidden;
     }
+
     div.imgs {
         width: 400px;
     }
+
     div.imgs img {
         width: 100%;
     }
+
     div.text {
         padding: 20px;
     }
@@ -211,4 +214,36 @@ a.home img {
 
 a.home img:hover {
     transform: translateX(-4px) scale(1.1);
+}
+
+div.speech-command {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button.rec {
+    display: block;
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(.98);
+}
+
+.speech-info {
+    position: absolute;
+    top: 85%;
+    left: 8%;
+    color: grey;
+    transition: 1s ease;
 }
