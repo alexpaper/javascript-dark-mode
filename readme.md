@@ -3,7 +3,7 @@ Simple javascript darkmode page.
 
 ![DarkMode](img/darkmode.gif)
 
-The dark mode can be enabled usign the checkbox, by default the page read the system preferences and automatically set the page in dark or lighy mode. 
+The dark mode can be enabled usign the checkbox, by default the page read the system preferences and automatically set the page in dark or light mode. 
 You can enable dark mode using also speech-recognition.
 ## Stack
 
